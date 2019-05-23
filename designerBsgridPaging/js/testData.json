@@ -1,0 +1,117 @@
+{
+  "code": "200",
+  "curPage": "1",
+  "data": [
+    {
+      "user_name": "会员名称",
+      "park_name": "测试001",
+      "invest_cash": "3203.70",
+      "fee":"0.6",
+      "commission": "12.30",
+      "cash_postal": "3216.00",
+      "get_time": "2019-05-09 16:09:00"
+    },
+    {
+      "user_name": "会员名称",
+      "park_name": "测试001",
+      "invest_cash": "357.05",
+      "fee":"0.6",
+      "commission": "1.95",
+      "cash_postal": "359.00",
+      "get_time": "2019-05-09 16:09:00"
+    },
+    {
+      "user_name": "会员名称",
+      "park_name": "测试001",
+      "invest_cash": "4671.80",
+      "fee":"0.6",
+      "commission": "28.20",
+      "cash_postal": "4700.00",
+      "get_time": "2019-05-09 16:09:00"
+    },
+    {
+      "user_name": "会员名称",
+      "park_name": "测试001",
+      "invest_cash": "3203.70",
+      "fee":"0.6",
+      "commission": "12.30",
+      "cash_postal": "3216.00",
+      "get_time": "2019-05-09 16:09:00"
+    },
+    {
+      "user_name": "会员名称",
+      "park_name": "测试001",
+      "invest_cash": "357.05",
+      "fee":"0.6",
+      "commission": "1.95",
+      "cash_postal": "359.00",
+      "get_time": "2019-05-09 16:09:00"
+    },
+    {
+      "user_name": "会员名称",
+      "park_name": "测试001",
+      "invest_cash": "4671.80",
+      "fee":"0.6",
+      "commission": "28.20",
+      "cash_postal": "4700.00",
+      "get_time": "2019-05-09 16:09:00"
+    },
+    {
+      "user_name": "会员名称",
+      "park_name": "测试001",
+      "invest_cash": "3203.70",
+      "fee":"0.6",
+      "commission": "12.30",
+      "cash_postal": "3216.00",
+      "get_time": "2019-05-09 16:09:00"
+    },
+    {
+      "user_name": "会员名称",
+      "park_name": "测试001",
+      "invest_cash": "357.05",
+      "fee":"0.6",
+      "commission": "1.95",
+      "cash_postal": "359.00",
+      "get_time": "2019-05-09 16:09:00"
+    },
+    {
+      "user_name": "会员名称",
+      "park_name": "测试001",
+      "invest_cash": "4671.80",
+      "fee":"0.6",
+      "commission": "28.20",
+      "cash_postal": "4700.00",
+      "get_time": "2019-05-09 16:09:00"
+    },
+    {
+      "user_name": "会员名称",
+      "park_name": "测试001",
+      "invest_cash": "3203.70",
+      "fee":"0.6",
+      "commission": "12.30",
+      "cash_postal": "3216.00",
+      "get_time": "2019-05-09 16:09:00"
+    },
+    {
+      "user_name": "会员名称",
+      "park_name": "测试001",
+      "invest_cash": "357.05",
+      "fee":"0.6",
+      "commission": "1.95",
+      "cash_postal": "359.00",
+      "get_time": "2019-05-09 16:09:00"
+    },
+    {
+      "user_name": "会员名称",
+      "park_name": "测试001",
+      "invest_cash": "4671.80",
+      "fee":"0.6",
+      "commission": "28.20",
+      "cash_postal": "4700.00",
+      "get_time": "2019-05-09 16:09:00"
+    }
+  ],
+  "msg": "SUCCESS",
+  "success": true,
+  "totalRows": "12"
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--框架css-->
+    <link href="../jquery.bsgrid-1.37/builds/merged/bsgrid.all.min.css" rel="stylesheet" type="text/css">
+
+    <!--必要css-->
+    <link href="../designerBsgridPaging/css/designerBsgridPaging.css" rel="stylesheet" type="text/css">
+    <title>Title</title>
+</head>
+<body>
+<table id="cashPostal_park_report_table">
+    <tr>
+        <th w_index="user_name">会员名称</th>
+        <th w_index="park_name">车场名称</th>
+        <th w_index="invest_cash">充值金额（元）</th>
+        <th w_index="fee">费率</th>
+        <th w_index="commission">手续费</th>
+        <th w_index="cash_postal">提现金额（元）</th>
+        <th w_index="get_time">提现时间</th>
+    </tr>
+</table>
+
+<!--关键部分起始-->
+<div class="funtion_group">
+    <div class="table_tools_btn_group">
+        <button class="stamp"><i class="stamp_icon"></i>打印</button>
+        <button class="load_out" onclick="cashPostalParkTools.loadOut()"><i class="load_out_icon"></i>导出</button>
+    </div>
+    <div class="turn_page_btn_group">
+        <button class="page_up">上一页</button>
+        <div class="page_index"></div>
+        <button class="page_down">下一页</button>
+        <p class="page_overview">共20页/100条记录</p>
+        <p>到第</p>&nbsp;<input class="go_page_index" type="number" min="0">&nbsp;<p>页</p>
+        <button class="go_page">确定</button>
+    </div>
+</div>
+<!--关键部分结束-->
+
+<!--框架js-->
+<script src="../jquery/jquery.min.js"></script>
+<script src="../jquery.bsgrid-1.37/builds/js/lang/grid.zh-CN.min.js"></script>
+<script src="../jquery.bsgrid-1.37/builds/merged/bsgrid.all.min.js"></script>
+<!--必要js-->
+<script src="../designerBsgridPaging/js/designerBsgridPaging.js"></script>
+<script>
+    $(function () {
+        billTable.init();
+        designerBsgridPaging.designerPageBar.init();
+    })
+
+    let billTable = {
+        billTableParam:{
+            curPage: 1,
+            pageSize: 10,
+        },
+        init:function () {
+            billTable.gridObj = $.fn.bsgrid.init("cashPostal_park_report_table",{
+                url:'../designerBsgridPaging/js/testData.json',
+                ajaxType:'post',
+                pageSizeSelect:true,
+                pageSize:10,
+                showPageToolbar:false,
+                rowSelectedColor: false,
+                complete:function (option,res) {
+                    designerBsgridPaging.designerPageBar.countPage(res.responseJSON.totalRows);
+                }
+            })
+        }
+    }
+</script>
+</body>
+</html>
