@@ -2,8 +2,8 @@
 
 #### 自制插件目录
 
-- 自制 模糊匹配选择输入框
-- 自制 bsgrid分页器 （只能配合bsgrid使用，或者对制作其他分页器起到一定帮助）
+- 自制 模糊匹配选择输入框 `dsignerSelect`
+- 自制 bsgrid分页器 （只能配合bsgrid使用，或者对制作其他分页器起到一定帮助）`designerBsgridPaging`
 
 
 #### 可用的库或者框架
